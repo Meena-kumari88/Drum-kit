@@ -1,6 +1,10 @@
 body{
     text-align: center;
-    background-color: aqua;
+    background:url('https://png.pngtree.com/thumb_back/fh260/background/20230704/pngtree-mesmerizing-neon-lit-3d-illustration-of-a-drum-set-image_3750336.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+
 }
 h1{
     font-size: 5rem;
@@ -8,47 +12,29 @@ h1{
     text-shadow: 3px 0 #DA0463;
 }
 .drum{
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.2); 
     outline: none;
-    border: 10px solid #404B69;
+    border: 5px solid #404B69;
     font-size: 5rem;
     line-height: 2;
     font-weight: 900;
     color: #DA0463;
-    text-shadow: 3px 0 #DBEDF3;
-    border-radius: 15px;
+    border-radius: 5px;
     display: inline-block;
     width: 150px;
     height: 150px;
     text-align: center;
     margin: 10px;
-    background-color: white;
+    
 }
-.w{
-    background-image: url('');
-}
-.a{
-    background-image: url('');
-}
-.s{
-    background-image: url('');
-}
-.d{
-    background-image: url('');
-}
-.j{
-    background-image: url('');
-}
-.k{
-    background-image: url('');
-}
-.l{
-    background-image: url('');
-}
+
 
 .set{
     margin: 10% auto;
 }
-.pressed{
-    box-shadow: 0 3px 4px 0 #DBEDF3;
-    opacity: 0.6;
+.pressed {
+    transform: scale(0.95);
+    transition: transform 0.1s;
 }
